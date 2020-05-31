@@ -98,15 +98,6 @@ public class Ball {
         } else if ((paddle.x > x  && paddle.paddleNumber == 1) || (paddle.x < x - width && paddle.paddleNumber == 2)){
             hit = 2;//score
         }
-
-
-//        if ((this.y + this.width > this.totalH -10) || (this.y + this.width <  + 10) ) {
-//            hit = 1; //hit
-//        }
-//
-
-
-
         return hit;
     }
 }
